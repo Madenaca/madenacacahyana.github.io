@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Portfolio I Made Naca Cahyana</title>
+    <link rel="icon" href="assets/icon.png">
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="./javascript/scrollreveal.min.js"></script>
+    <script defer type="text/javascript" src="./javascript/scrollveal.js"></script>
+  </head>
+
+  <body>
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hai, Nama saya  <span class="text-color-main name">I Made Naca Cahyana</span>
+          Saya Seorang Programmer.
+        </h1>
+          <img class="circular-image" class="cta-btn cta-btn--hero"  src="./assets/pop.JPG" alt="Profile Image"/>
+      </section>
+    </div>
+  
+    <section id="about">
+      <div class="container"> 
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+        <video controls="true"  class="row about-wrapper">
+					<source src="assets/vidio.mp4">
+				</video>
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              Saya adalah mahasiswa dari Universitas Teknokrat Indonesia dengan prodi infomatika. Saya
+              dengan minat besar di bidang front end web developer, UI/UX Design. 
+            </p>
+            <p class="about-wrapper__info-text">
+              Aktif dalam berorganisasi, senang bekerja dalam tim dan memiliki 
+              kemampuan komunikasi yang baik
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Riwayat Pelatihan</h2>
+
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Webinar Universitas Teknokrat Indonesia</h3>
+              <p class="project-wrapper__text-info">
+                webinas ini membahas apasaja trend-trend positif tentang teknologi bagi milenial
+                dan memberikan sebuah inovasi di zaman new normal
+              </p>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img src="./assets/s1.png" class="img-fluid" alt="Project Image"/>
+                </div>
+              </a>
+            </div>
+          </article>
+
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Webinar duta genre Lampung</h3>
+              <p class="project-wrapper__text-info">
+                webinar membahas tentang pentingnya Menjaga kesehatan reproduksi adalah hal yang sangat penting, terutama pada remaja.
+                 Sebab, masa remaja adalah waktu terbaik untuk membangun kebiasaan baik menjaga kebersihan, yang bisa menjadi aset dalam jangka panjang.
+              </p>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img src="./assets/s2.png" class="img-fluid" alt="Project Image"/>
+                </div>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">Untuk informasi yang  lebih lanjut silakan kontak email saya</p>
+          <a href="mailto:madenacacahyana@gmail.com?Subject=Mau%20tanya" class="cta-btn cta-btn--resume ">Kontak Email</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a href="https://twitter.com/mdnaca?t=ZvE3kI5pQyTKuuopxx0lrQ&s=09" target="_blank" rel="noopener noreferrer" aria-label="twitter">
+            <i class="fa fa-twitter"></i></a>
+          <a href="https://www.instagram.com/mdenaca/" target="_blank" rel="noopener noreferrer"aria-label="instagram">
+            <i class="fa fa-instagram"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100007312904936" target="_blank" rel="noopener noreferrer" aria-label="facebook">
+            <i class="fa fa-facebook"></i></a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          &copy; <span id="year"></span> I Made Naca Cahyana - 20312143 </p>
+      </div>
+    </footer> 
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
